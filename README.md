@@ -1,1 +1,3 @@
 # aiprep
+
+**aiprep** is a project designed to help users prepare for AI-related interviews, exams, and certifications. It provides curated resources, practice questions, and study guides covering essential AI concepts, programming, and problem-solving techniques. Whether you're a beginner or an experienced professional, aiprep aims to support your learning journey and boost your confidence in AI topics.
