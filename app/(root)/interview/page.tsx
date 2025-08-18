@@ -5,6 +5,8 @@ import React from "react";
 const Page = async () => {
 	const user:any = await getCurrentUser();
 
+	console.log("Current user:", user);
+
 	return (
 		<>
 			<h3>Interview Generation</h3>
