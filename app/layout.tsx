@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Mona_Sans } from "next/font/google";
+import {  Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 
-const monaSans = Mona_Sans({
-  variable: "--font-mona-sans",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${monaSans.variable} antialiased pattern`}
+        className={`${spaceGrotesk.variable} antialiased pattern`}
       >
         {children}
 

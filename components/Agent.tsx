@@ -176,7 +176,7 @@ const Agent = ({
 				</div>
 
 				{/* User Profile Card */}
-				<div className="card-border">
+				{/* <div className="card-border">
 					<div className="card-content">
 						<Image
 							src="/user-avatar.png"
@@ -187,7 +187,7 @@ const Agent = ({
 						/>
 						<h3>{userName}</h3>
 					</div>
-				</div>
+				</div> */}
 			</div>
 
 			{messages.length > 0 && (
