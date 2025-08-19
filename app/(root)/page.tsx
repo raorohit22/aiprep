@@ -40,7 +40,7 @@ const Page = async () => {
 					alt="robot-dude"
 					width={400}
 					height={400}
-					className="max-sm:hidden"
+					className="max-lg:hidden"
 				/>
 			</section>
 
